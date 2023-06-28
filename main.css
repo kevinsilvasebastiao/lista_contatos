@@ -1,0 +1,74 @@
+/*zerando as dimensões da pagina*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/*cor de fundo da pagina*/
+body{
+    background-image: linear-gradient(60deg, #ffda99 0, #ffdd95 4.55%, #ffdf91 9.09%, #f7e18e 13.64%, #e9e28b 18.18%, #dae389 22.73%, #c9e288 27.27%, #b6e189 31.82%, #a1df8a 36.36%, #88dc8c 40.91%, #6bd98f 45.45%, #42d494 50%, #00cf9a 54.55%, #00caa3 59.09%, #00c6ad 63.64%, #00c1b9 68.18%, #00bdc6 72.73%, #00bad3 77.27%, #00b6e0 81.82%, #00b3ec 86.36%, #00aff7 90.91%, #00acff 95.45%, #00a9ff 100%);
+}
+
+/*cabeçalho da pagina alinhndo os iten no meio*/
+header{
+    display: flex;
+    align-items: center; 
+}
+
+/*ajustes da fraze margin para baixo cime e a esquerda e fonte*/
+header h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 37%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*formulario ajustando margin a esquerda cor de fundo tamanho maxima e largura */
+.formularios {
+    margin-left: 30%;
+    background-color: white;
+    max-width: 460px;
+    padding: 2%;
+}
+
+/*botao tamanho largura e tirando a borda */
+input,button{
+    width: 100%;
+    padding: 5%;
+    border: none;
+}
+
+/*animação do cursor do mouse*/
+button{
+    cursor: pointer;
+}
+
+/*animação do botão mudando cor de fundo e cor das letras*/
+button:hover {
+    background-color: burlywood;
+    color: brown;
+}
+
+/*tabela ajustando o tamanho*/
+table {
+    width: 100%;
+}
+
+/*parte de cima da tabela ajustando borda de baixo com cor preta largura e fonte*/
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*conteudo da tabela borda de baixo preta solida com 1px largura alinhando os itens a o meio e fonte de 18px*/
+table td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+}
